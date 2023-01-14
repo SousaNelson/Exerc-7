@@ -1,0 +1,27 @@
+
+table{
+    width: 600px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left: 450px;
+    
+}
+td{
+    padding: 10px;
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+    font: 1em sans-serif;
+}
+.primeira-linha{
+    color: white;
+    background-color:#0d7e5e;
+    
+}
+
+.terceira-linha, .ultima-linha{
+    background-color:rgb(216, 203, 203) ;
+}

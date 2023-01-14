@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  font-family: "roboto", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  
+}
+
+button {
+  border-radius: 50%;
+  height: 43px;
+  border: 1px solid #087f5b;
+  background: none;
+  cursor: pointer;
+  width: 43px;
+}
+
+button:hover {
+  background-color: #087f5b;
+}
+
+button:hover .btn-icon {
+  stroke: #fff;
+}
+
+.btn-icon {
+  height: 24px;
+  width: 24px;
+  stroke: #087f5b;
+}
+
+a {
+  display: flex;
+  row-gap: 5px;
+}
+
+
+.pagina:hover {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.pagina:link, .pagina:visited {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  justify-content: center;
+  font-size: 18px;
+  color: #343a40;
+  text-decoration: none;
+}
+
+
+.pagina:active, .pagina.pag-4 {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+p {
+  color: black;
+}
+
